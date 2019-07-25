@@ -81,19 +81,22 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    PayLink TechTest
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{ route('fibonacci') }}">Fibonacci Sequence</a>
+                    <a href="https://dbdiagram.io/d/5d39edc3ced98361d6dd02ed">Social Network</a>
+                    <a href="{{ route('magic') }}">Magic Getter Setter</a>
+                    <a href="{{ route('fizzbuzz') }}">Fizz Buzz</a>
+                    <a href="https://bitbucket.org/intelij/">My BitBucket Bucket Repo</a>
+                    <a href="https://github.com/intelij">My GitHub Repo</a>
                 </div>
+
+                <iframe width="760" height="515" src='https://dbdiagram.io/embed/5d39edc3ced98361d6dd02ed' style="border: none; margin-top: 40px;"> </iframe>
+
             </div>
+
         </div>
     </body>
 </html>

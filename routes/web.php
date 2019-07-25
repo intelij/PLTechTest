@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/fibonacci', 'FibonacciController@index')->name('fibonacci');
+Route::get('/fizzbuzz', 'FizzBuzzController@index')->name('fizzbuzz');
+Route::get('/magic', 'MagicController@index')->name('magic');
