@@ -32,6 +32,8 @@ NB: We will not accept the mathematical formula for a given Fibonacci number.
 
 ### Social Network
 
+#### https://dbdiagram.io/d/5d39edc3ced98361d6dd02ed - online version can be found here
+
 Your team are building a social network. Your first task is to look at the build for the posts,
 authors, and replies.
 Requirements:
